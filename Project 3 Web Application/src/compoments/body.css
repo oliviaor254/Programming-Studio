@@ -1,0 +1,292 @@
+/*************Header*******************/
+.header-container{
+    padding: 30px;
+    background: #FFFFFF;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+}
+.header-container-access{ 
+    padding: 30px;
+    background: #d3d3d3;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+}
+.header-container h1{
+    text-align: center; 
+    color:#500000;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-container-access h1{
+    text-align: center; 
+    color:#0c5eac;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.header-container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.header-container-access p{  
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/************ Access Button *********/
+
+.access-button{
+    background-color: #500000;
+    width: fit-content;
+    position: fixed;
+    left:0;
+    border: 3px outset #FFFFFF;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition-duration: .7s;
+    font-weight: bold;
+    z-index: 1;
+    color:#FFFFFF;
+    padding:1%;
+}
+.access-button:hover{
+    background-color: black;
+}
+.access-button-access{ /*CHANGE*/
+    background-color: #0c5eac;
+    width: fit-content;
+    position: fixed;
+    left: 0;
+    border: 4px outset #FFFFFF;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition-duration: .7s;
+    font-weight: bold;
+    z-index: 1;
+    color:#FFFFFF;
+    padding:1%;
+}
+.access-button-access:hover{ 
+    background-color: black;
+    color: white;
+}
+
+/**********Body**************/
+
+.body{
+    background-attachment: fixed;
+    background: url("https://cdn.discordapp.com/attachments/765286261308653600/776171673928990760/DltOn3eW4AAp6UN.png") no-repeat center fixed;
+    background-size: cover;  
+}
+.body-access{
+    background-attachment: fixed;
+    background-color: oldlace;
+    background-size: cover;
+}
+.wrapper{
+    display: flex;
+    height:100%;
+    text-align: center;
+    position:relative;
+}
+/*****Input*******/
+.input-container{
+    display:flex;
+    margin: auto;
+    margin-top: 5vh;
+    padding:20px;
+    width:70%; 
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    background-color: #500000;
+    color:#FFFFFF;
+    align-items: center;
+    border-radius: 25px;
+}
+.input-container-access{ 
+    display:flex;
+    margin: auto;
+    margin-top: 5vh;
+    padding:20px;
+    width:70%; 
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    background-color: #d3d3d3;;
+    color:#0c5eac;
+    align-items: center;
+    border-radius: 25px;
+}
+.box{
+   width: calc(9.11% - 1%);
+   font-size:15px;
+   margin: 1%;
+}
+@media (max-width: 1200px){
+    .box{
+       width: calc(32% - 1%);
+    }
+}
+@media (max-width:650px){
+   .box{
+       width:100%;
+   }
+}
+.button-input{
+    border-radius: 12px;
+    transition-duration: 0.2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6%;
+}
+.button-input:hover{
+    background-color: black;
+    color: white;
+}
+.button-input:active {
+    background-color: grey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.box input{
+    text-transform: capitalize;
+}
+.input-box{
+    width:100px;
+    height: 42%;
+}
+
+.input-label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.input-label-access{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
+/****Output*******/
+.output-container{
+    width:80%;
+    height:250vh;
+    margin:auto;
+    margin-top: 5vh;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.output-container h2{
+    background-color: #FFFFFF;
+    color: #500000;
+    border-radius: 25px;
+    padding:10px;
+    margin: auto;
+} 
+/** Color toogle change code for output and cards**/
+.output-container-access{
+    width:80%;
+    height:250vh;
+    margin:auto;
+    margin-top: 5vh;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.output-container-access .card-link{
+    padding: 2%;
+    font-size: 30px;
+    background-color: #d3d3d3;
+    color: #0c5eac !important;
+}
+.output-container-access .food-link{
+    padding: 2%; 
+    background-color: #d3d3d3;
+    color:#0c5eac !important;
+    font-size:20px;
+  }
+.output-container-access .btn-link.clickfor{
+    font-size:25px;
+    color:#0c5eac;
+}
+.output-container-access .scroll ul{
+    background-color:#d3d3d3;
+    color:#0c5eac;
+    list-style: square inside ;
+}
+.output-container-access h2{ 
+    background-color: #d3d3d3;
+    color: #0c5eac;
+    border-radius: 25px;
+    padding:10px;
+    margin: auto;
+}
+.cityOut{
+    margin-top: 3hv;
+}
+.musicOut{
+    margin-top: 3hv;
+}
+.foodOut{
+    margin-top: 3hv;
+}
+/*****Card******/
+.card {
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+    width: 500px;
+}
+.card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+}
+.image-size{
+  border-radius: 4px;
+  width: 100%;
+  height: 225px;
+}
+.cityOut .card-body{
+  height: 150px;
+}
+.foodOut .card-body{
+  height: 80px;
+}
+.musicOut .card-body{
+  height: 200px;
+}
+.center{
+  margin-right:auto;
+  margin-left:auto;
+}
+.noData-recipe{
+  display: none;
+}
+.contain-card-spacing{
+  margin:2%
+}
+.card-link{
+  padding: 2%;
+  font-size: 30px;
+  background-color: #500000;
+  color: #FFFFFF !important;
+}
+.card-link:hover{
+  background-color: black;
+  color: #FFFFFF !important;
+}
+.food-link{
+ font-size:20px;
+}
+.no-show li{
+    font-size:0px;
+}
